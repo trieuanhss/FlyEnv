@@ -13,7 +13,7 @@
         </div>
         <div class="mt-5">
           <a target="_blank" href="javascript:" rel="noopener noreferrer" @click="toHome($event)">
-            FlyEnv - https://flyenv.com
+            FlyEnv - Fork and Rebuild by MrLong
           </a>
         </div>
       </div>

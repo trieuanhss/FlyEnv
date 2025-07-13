@@ -1,8 +1,8 @@
 import type { Configuration } from 'electron-builder'
 
 const conf: Configuration = {
-  productName: 'FlyEnv',
-  executableName: 'PhpWebStudy',
+  productName: 'FlyEnv build by MrLong',
+  executableName: 'PhpWebStudyBuildByMrLong',
   buildVersion: '4.9.12',
   electronVersion: '31.7.7',
   appId: 'phpstudy.xpfme.com',
@@ -19,9 +19,9 @@ const conf: Configuration = {
     '!**/node_modules/.bin',
     '!**/node_modules/node-pty/build/node_gyp_bins'
   ],
-  artifactName: 'FlyEnv Setup ${version}.${ext}',
+  artifactName: 'FlyEnv Setup Build By MrLong ${version}.${ext}',
   win: {
-    artifactName: 'FlyEnv Setup ${version}.${ext}',
+    artifactName: 'FlyEnv Setup Build By MrLong ${version}.${ext}',
     icon: 'build/icon.ico',
     requestedExecutionLevel: 'requireAdministrator',
     target: [
@@ -40,7 +40,7 @@ const conf: Configuration = {
     allowToChangeInstallationDirectory: true
   },
   portable: {
-    artifactName: 'FlyEnv Portable ${version}.${ext}',
+    artifactName: 'FlyEnv Portable Build By MrLong ${version}.${ext}',
     requestExecutionLevel: 'admin'
   },
   publish: []
